@@ -66,6 +66,7 @@ return (
         <Header 
           onMenuToggle={handleMenuToggle}
           sidebarOpen={sidebarOpen}
+          onSearch={(query) => console.log('Search:', query)}
         />
       </div>
 
