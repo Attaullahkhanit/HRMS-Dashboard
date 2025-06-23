@@ -1,6 +1,7 @@
 // src/app/dashboard/page.tsx
 'use client';
 
+import AttendanceSummaryDisplay from '@/components/ui/Charts/AttendanceSummary';
 import { useState, useEffect } from 'react';
 
 export default function DashboardPage() {
@@ -50,6 +51,9 @@ export default function DashboardPage() {
               <span className="ml-3 text-sm font-medium text-gray-700">Settings</span>
             </button>
           </div>
+        </div>
+        <div className='bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6'>
+          <AttendanceSummaryDisplay/>
         </div>
       </div>
     </div>

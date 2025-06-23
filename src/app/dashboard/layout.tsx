@@ -3,8 +3,10 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Header from '@/components/dashboard/Header';
+// import Header from '@/components/dashboard/Header';
 import SideBar from '@/components/dashboard/SideBar';
+import Header from '../../components/dashboard/Header';
+
 
 interface DashboardLayoutProps {
   children: React.ReactNode;

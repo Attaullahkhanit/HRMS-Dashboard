@@ -149,7 +149,7 @@ export default function SigninPage() {
                   className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                 />
                 <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-700">
-                  By signing in I accept the Terms and Conditions
+                  Remember me
                 </label>
               </div>
             </div>
